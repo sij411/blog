@@ -34,7 +34,9 @@ body {
   color: rgb(var(--gray-dark));
   font-size: 20px;
   line-height: 1.7;
+  width: 100vw;
 }
+
 main {
   width: 720px;
   max-width: calc(100% - 2em);
@@ -82,16 +84,13 @@ table {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 code {
   padding: 2px 5px;
   background-color: rgb(var(--gray-light));
-  border-radius: 2px;
 }
 pre {
   padding: 1.5em;
-  border-radius: 8px;
 }
 pre > code {
   all: unset;

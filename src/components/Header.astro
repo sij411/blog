@@ -10,7 +10,7 @@ import { SITE_TITLE } from "../consts";
       <HeaderLink href="/blog">Blog</HeaderLink>
       <HeaderLink href="/about">About</HeaderLink>
     </div>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
+    <h2><a href="/" class="text-2xl">{SITE_TITLE}</a></h2>
     <div class="social-links">
       <a href="https://github.com/sij411" target="_blank">
         <span class="sr-only"></span>
@@ -57,10 +57,11 @@ import { SITE_TITLE } from "../consts";
     padding: 0 0.5em;
     background: white;
     border-bottom: 1px black solid;
+    height: 50px;
+    overflow: hidden;
   }
   h2 {
     margin: 0;
-    font-size: 1em;
   }
 
   h2 a,
@@ -71,6 +72,7 @@ import { SITE_TITLE } from "../consts";
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
   }
   nav a {
     padding: 0.5em 0.5em;
@@ -85,6 +87,7 @@ import { SITE_TITLE } from "../consts";
   .social-links a {
     display: flex;
   }
+
   @media (max-width: 720px) {
     .social-links {
       display: none;
