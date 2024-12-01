@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sij411.github.io/sij411",
-  base: "https://sij411.github.io/sij411",
+  site: "https://sij411.github.io/",
+
   integrations: [mdx(), sitemap(), tailwind()],
 });
